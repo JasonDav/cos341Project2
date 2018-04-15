@@ -21,7 +21,8 @@ public class ScopeAnalyzer
 		addScopes(root);
 		printTree();
 		populateTable();
-		st.printTable();
+		// st.printTable();
+		System.out.println("\n\n\n");
 		st.scopeTable();
 		st.printTable();
 	}
@@ -178,34 +179,4 @@ public class ScopeAnalyzer
 	{
 		return (node.type == NodeType.PROC);
 	}
-
-	// PrintWriter pw = new PrintWriter("semantic_table.txt");
-	// void newSemanticEntry()
-	// {
-	// 	static boolean headings = false;
-	// 	if(!headings)
-	// 		pw.write("Node:\t")
-	// }
-
-	// public class SemanticTable()
-	// {
-	// 	LinkedList<Entry> entries;
-
-	// 	public SemanticTable()
-	// 	{
-	// 		entries = new LinkedList<Entry>();
-	// 	}
-
-	// 	public class Entry()
-	// 	{
-	// 		String name;
-	// 		int id;
-
-	// 		public Entry(String n, int id)
-	// 		{
-	// 			name = n;
-	// 			this.id = id;
-	// 		}
-	// 	}
-	// }
 }

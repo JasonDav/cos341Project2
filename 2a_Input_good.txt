@@ -1,0 +1,27 @@
+
+num i;
+num ten ;
+input(a);
+input(b);
+ten = 10;
+
+for(i=0; i<ten; i=add(i,1)) 
+   { if( eq(a,b) ) then { p1 } else { p2 } } ;
+
+i = mult(a,b);
+output(i);
+halt;
+
+num a;
+num b;
+
+for(i=0; i<ten; i=add(i,1)) 
+   { if( eq(a,b) ) then { p1 } else { p2 } } ;
+
+proc p1 { a = 12 ;
+          b = add(b,a) ;
+          num a  }
+
+proc p2 { num b ;
+          b = 13 ;
+          a = sub(a,b) }

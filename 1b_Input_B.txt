@@ -7,14 +7,31 @@ if (not (n32<n98)) then { p46 } ;
 num mynumber;
 string stri7;
 bool y;
+num i;
 
+ for(i=0 ; i<j ; i=add(i,1)) 
+ { input(x) ; 
+   stri7 = stri9
+ } ; 
 proc p46 { output(result) ; 
            if(eq(y,y)) then { halt } else {p47} ; 
            output(message) ; 
            num n32;
-           
+           string esktitit;
+
+           for(i=0 ; i<j ; i=add(i,1)) 
+    		   { input(x) ; 
+    		     s37 = str
+    		   } ; 
+
+           output(i);
+
            proc p47 { if( not(c<boolean)) then { halt } else {temp = sub(-240,aux)} ; 
                       output(mynumber) ; 
-                      if(eq(temp,stri7)) then { halt } 
+                      if(eq(temp,stri7)) then { halt } ;
+
+                      proc p48 {
+                      	output(esktitit);
+                      }
                     } 
          }
